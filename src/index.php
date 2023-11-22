@@ -1,23 +1,6 @@
 <?php
-  var_dump(__DIR__);
-  require_once 'header.php';
+  require_once __DIR__ . '/components/header.php';
 ?>
-
-<header>
-  <nav>
-    <ul>
-      <li>
-        <a href="">Home</a>
-      </li>
-      <li>
-        <a href="">Signin</a>
-      </li>
-      <li>
-        <a href="">Account</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 
 <section>
   <h1>My amazing blog</h1>
@@ -25,9 +8,13 @@
   <div class="row">
     <div class="col-md-3">
       <div class="card">
-        <img src="https://source.unsplash.com/random/300x300" alt="">
+        <a href="/single-post.php">
+          <img src="https://source.unsplash.com/random/300x300" alt="">
+        </a>
         <div class="card-body">
-          <h2>Amazin Card Title</h2>
+          <a href="/single-post.php">
+            <h2>Amazin Card Title</h2>
+          </a>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </div>
@@ -61,6 +48,7 @@
     </div>
   </div>
 </section>
-</body>
 
-</html>
+<?php
+  require_once __DIR__ . '/components/footer.php';
+?>
