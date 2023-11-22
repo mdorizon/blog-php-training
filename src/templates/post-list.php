@@ -5,7 +5,7 @@
 <div class="row">
   <?php foreach($postList as $key => $post) :?>
   <div class="col-md-3">
-    <div class="card">
+    <div class="card mt-2">
       <a href="/single-post.php?index=<?php echo $key ?>">
         <img src="<?php echo $post['image']; ?>" alt="">
       </a>
@@ -18,6 +18,9 @@
         <p>
           <?php echo $post['content']; ?>
         </p>
+        <a href="/actions/delete-post.php?index=<?php echo $key ?>">
+          delete
+        </a>
       </div>
     </div>
   </div>
