@@ -1,22 +1,22 @@
 <?php
 $postList = [
   [
-      'title' => 'Amazing Card title',
+      'title' => 'title1',
       'content' => 'Lorem ipsum dolor sit amet consectetur.',
       'image' => 'https://source.unsplash.com/random/300x300/?cooking'
   ],
   [
-      'title' => 'Amazing Card title',
+      'title' => 'title2',
       'content' => 'Lorem ipsum dolor sit amet consectetur.',
       'image' => 'https://source.unsplash.com/random/300x300/?cooking'
   ],
   [
-      'title' => 'Amazing Card title',
+      'title' => 'title3',
       'content' => 'Lorem ipsum dolor sit amet consectetur.',
       'image' => 'https://source.unsplash.com/random/300x300/?cooking'
   ],
   [
-      'title' => 'Amazing Card title',
+      'title' => 'title4',
       'content' => 'Lorem ipsum dolor sit amet consectetur.',
       'image' => 'https://source.unsplash.com/random/300x300/?cooking'
   ]

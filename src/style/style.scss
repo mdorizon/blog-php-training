@@ -17,3 +17,49 @@
     height: auto;
   }
 }
+
+nav {
+  padding: 0 20%;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    li a{
+      text-decoration: none;
+    }
+  }
+}
+
+$margin-spacing: 5px;
+
+@for $i from 1 through 10 {
+  .m-#{$i} {
+    margin: calc($i * $margin-spacing );
+  }
+  .mt-#{$i} {
+    margin-top: calc($i * $margin-spacing );
+  }
+  .mr-#{$i} {
+    margin-right: calc($i * $margin-spacing );
+  }
+  .ml-#{$i} {
+    margin-left: calc($i * $margin-spacing );
+  }
+  .mb-#{$i} {
+    margin-bottom: calc($i * $margin-spacing );
+  } 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+  margin-bottom: 50px;
+
+  input[type="text"], textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
