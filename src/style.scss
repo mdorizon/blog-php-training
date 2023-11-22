@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@for $i from 1 through 12 {
+  .col-md-#{$i} {
+    width: calc(100% / 12 * $i);
+  }
+}
+
+[class*="col-"] {
+  padding: 0 15px;
+}
+
+// Card
+.card {
+  box-shadow: 20px 30px 10px 3px greenyellow;
+}
