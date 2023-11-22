@@ -1,0 +1,19 @@
+@import "_grid.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+// Card
+.card {
+  box-shadow: 0 0 30px -16px rgba(0, 0, 0, 0.2);
+
+  &-body {
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
